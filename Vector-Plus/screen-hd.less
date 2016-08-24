@@ -1,0 +1,75 @@
+/* Vector screen styles for high definition displays */
+
+@import "variables.less";
+/* 右边框保持5em边距 */
+.mw-body {
+	margin-left: 5em;
+	margin-right: 5em;
+	padding: 1.25em 1.5em 1.5em 1.5em;
+}
+#p-logo {
+	left: @menu-main-logo-left;
+}
+/* 右边框保持5em边距 */
+div#footer {
+	margin-left: 5em;
+	margin-right: 5em;
+	padding: 1.25em;
+}
+#mw-panel {
+	padding-left: 0.5em;
+}
+#p-search {
+	margin-right: 1em;
+}
+#left-navigation {
+	margin-left: 5em;
+}
+#p-personal {
+	right: 1em;
+}
+/* 右边框保持5em边距 */
+/* right边框保持5em边距 */
+#mw-head-base {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+/* 小火箭 rocket */
+body{height:980px}
+#rocket-to-top div {
+    left:0;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    top:0;
+    width:149px;
+}
+#rocket-to-top .level-2 {
+    background:url("./images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+    display:none;
+    height:250px;
+    opacity:0;
+    z-index:1;
+}
+#rocket-to-top .level-3 {
+    background:none repeat scroll 0 0 transparent;
+    cursor:pointer;
+    display:block;
+    height:150px;
+    z-index:2;
+}
+#rocket-to-top {
+    background:url("./images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor:default;
+    display:block;
+    height:250px;
+    margin:-125px 0 0;
+    overflow:hidden;
+    padding:0;
+    position:fixed;
+    right:0;
+    top:80%;
+    width:149px;
+    z-index:11;
+}
