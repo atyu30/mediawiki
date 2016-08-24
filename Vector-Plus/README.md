@@ -1,8 +1,12 @@
 #Vector-Plus
+Base Version from Mediawiki:
+*https://www.mediawiki.org/wiki/Skin:Vector
+
+Current Version:
 mediawiki-1.27.0 OK
 
 #ChangLog
-##2016/08/23
+##2016/08/23 V184
 1.Simplified interface
 
 ---
